@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="8.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h4>Add new student:</h4>
+        <label for="first-name">First name:</label>
+        <input type="text" id="first-name" />
+        <label for="first-name">Last name:</label>
+        <input type="text" id="last-name" />
+        <button type="button" onclick="addNewRow()">Add new row</button>
+    </form>
+    <form>
+        <h4>Update existing student:</h4>
+        <label for="row">Row:</label>
+        <input type="text" id="row" />
+        <label for="column">Column:</label>
+        <input type="text" id="column" />
+        <label for="update-text">Update text:</label>
+        <input type="text" id="update-text" />
+        <button type="button" onclick="updateStudent()">Update student</button>
+    </form>
+    <table id="students">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First name</th>
+                <th>Last name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Vasilica</td>
+                <td>Popescu</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Viorel</td>
+                <td>Popescu</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    cursor: pointer;
+}
+
+form > * {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+}

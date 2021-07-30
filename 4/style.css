@@ -1,0 +1,12 @@
+table {
+    margin-top: 50px;
+}
+
+td, th {
+    border: 1px solid black;
+    min-width: 300px;
+} 
+
+button {
+    cursor: pointer;
+}

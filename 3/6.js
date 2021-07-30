@@ -1,0 +1,4 @@
+/*
+    DOM Exercise
+    You have a page with a url and two buttons. Add for each button a new url that will be changed at click.
+*/

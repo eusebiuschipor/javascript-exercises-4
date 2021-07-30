@@ -1,0 +1,4 @@
+/*
+    DOM Exercise
+    You have a table and two input fields. In the input fields you can add the first name and the last name for a new row in table.
+*/
